@@ -1,0 +1,52 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    color:red
+}
+body{
+    background-color:rgb(252, 240, 229);
+}
+
+h1{
+    text-transform: uppercase;
+    color:orange;
+    text-align: center;
+    background-color: floralwhite;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding: 15px;
+    font-size: 45px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(255, 141, 112);
+    background-color: floralwhite;
+    font-size: 30px;
+    padding:10px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h3{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.col {
+    float: left;
+    width: 50%;
+}
+.image{
+    border-radius: 50%;
+}
